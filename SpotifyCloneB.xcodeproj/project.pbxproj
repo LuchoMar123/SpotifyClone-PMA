@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38EB8CC8285913A400475796 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38EB8CC7285913A300475796 /* GoogleService-Info.plist */; };
 		8617D9202826ACA400DF95FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8617D91F2826ACA400DF95FD /* AppDelegate.swift */; };
 		8617D9222826ACA400DF95FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8617D9212826ACA400DF95FD /* SceneDelegate.swift */; };
 		8617D9242826ACA400DF95FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8617D9232826ACA400DF95FD /* ViewController.swift */; };
@@ -23,7 +24,6 @@
 		861D70212836FBD8003B0BC7 /* ItemPlaylistDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D70202836FBD8003B0BC7 /* ItemPlaylistDetailTableViewCell.swift */; };
 		861D70242836FDAE003B0BC7 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 861D70232836FDAE003B0BC7 /* SDWebImage */; };
 		861D70262836FDAE003B0BC7 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 861D70252836FDAE003B0BC7 /* SDWebImageMapKit */; };
-		868EFC5F2841775C00FAD5F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 868EFC5E2841775C00FAD5F8 /* GoogleService-Info.plist */; };
 		868EFC622841789200FAD5F8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 868EFC612841789200FAD5F8 /* FirebaseAuth */; };
 		868EFC642841789200FAD5F8 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 868EFC632841789200FAD5F8 /* FirebaseDatabase */; };
 		868EFC662841789200FAD5F8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 868EFC652841789200FAD5F8 /* FirebaseFirestore */; };
@@ -40,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38EB8CC7285913A300475796 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8617D91C2826ACA400DF95FD /* SpotifyCloneB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyCloneB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8617D91F2826ACA400DF95FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8617D9212826ACA400DF95FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		8617D9432826BCDB00DF95FD /* PlatListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatListViewModel.swift; sourceTree = "<group>"; };
 		8617D9452826BDDD00DF95FD /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		861D70202836FBD8003B0BC7 /* ItemPlaylistDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPlaylistDetailTableViewCell.swift; sourceTree = "<group>"; };
-		868EFC5E2841775C00FAD5F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		86C790642836E92500DA691B /* PlayListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListDetail.swift; sourceTree = "<group>"; };
 		86C790662836EAC400DA691B /* PlatlistDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatlistDetailViewModel.swift; sourceTree = "<group>"; };
 		86C790682836ECA900DA691B /* PlaylistDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlaylistDetail.storyboard; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 				8617D9332826AEFA00DF95FD /* Model */,
 				8617D91F2826ACA400DF95FD /* AppDelegate.swift */,
 				8617D9212826ACA400DF95FD /* SceneDelegate.swift */,
-				868EFC5E2841775C00FAD5F8 /* GoogleService-Info.plist */,
+				38EB8CC7285913A300475796 /* GoogleService-Info.plist */,
 				8617D9282826ACA800DF95FD /* Assets.xcassets */,
 				8617D92D2826ACA800DF95FD /* Info.plist */,
 			);
@@ -260,11 +260,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8617D92C2826ACA800DF95FD /* LaunchScreen.storyboard in Resources */,
-				868EFC5F2841775C00FAD5F8 /* GoogleService-Info.plist in Resources */,
 				8617D9292826ACA800DF95FD /* Assets.xcassets in Resources */,
 				86C790692836ECA900DA691B /* PlaylistDetail.storyboard in Resources */,
 				8617D9272826ACA400DF95FD /* Main.storyboard in Resources */,
 				8617D93E2826B50800DF95FD /* Home.storyboard in Resources */,
+				38EB8CC8285913A400475796 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

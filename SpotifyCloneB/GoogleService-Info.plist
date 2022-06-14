@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>977621770372-vhmjol56s47imgbgu6pn89bqmljvf8k0.apps.googleusercontent.com</string>
+	<string>700759414326-7ge9euorbjp2m42h63kpiu5vagv94pt1.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.977621770372-vhmjol56s47imgbgu6pn89bqmljvf8k0</string>
+	<string>com.googleusercontent.apps.700759414326-7ge9euorbjp2m42h63kpiu5vagv94pt1</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDPgxSJDIWH1uvyWAB_VKlEgGB9GlVnqBc</string>
+	<string>AIzaSyBidu4yKACrEC4CuERMuv8Z75rj0xyBu7g</string>
 	<key>GCM_SENDER_ID</key>
-	<string>977621770372</string>
+	<string>700759414326</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.tecsup.SpotifyCloneB</string>
 	<key>PROJECT_ID</key>
-	<string>todoapp-3de66</string>
+	<string>testios-b60fd</string>
 	<key>STORAGE_BUCKET</key>
-	<string>todoapp-3de66.appspot.com</string>
+	<string>testios-b60fd.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:977621770372:ios:db6f29037d30a28217a2d1</string>
+	<string>1:700759414326:ios:ca568d7cc251d2e0f6ea97</string>
 </dict>
 </plist>

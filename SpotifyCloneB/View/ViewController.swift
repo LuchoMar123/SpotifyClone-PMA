@@ -25,15 +25,13 @@ class ViewController: UIViewController {
             if error != nil {
                 self.storeUser(email: email, password: password)
             }
-            
-            // ir a otra vista
+        
         }
     }
     
     func storeUser(email: String, password: String) {
         Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
             if error == nil {
-              // ir a otra vista
             }
         }
     }
